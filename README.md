@@ -1,11 +1,17 @@
 # Homework-and-questions-6
-1.Responsive web design makes web pages look good on all devices.
+1.Responsive web design makes web pages look good on all devices.  
+
 2.Responsive design only uses Html and css.
+
 3.Web design considered responsive web design CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.
+
 4.Web pages can be viewed on many different devices, the content looks good on any screen, And it becomes easy to use.
+
 5.The CSS media query  is a CSS technique and it uses the @media rule to include a block of CSS properties.
+
 6.Their two places where we will use media queries the site navigation and our CSS Grid columns containing our images on our portfolio page and
 the reason why is because those are the two available opportunities right now.
+
 7.```@media (max-width: 899px) {
   .header {
     background: rgba(104, 151, 187, 1);
@@ -13,26 +19,41 @@ the reason why is because those are the two available opportunities right now.
     position: sticky;
     top: 0;
   }```
-  8.```@media (max-width: 799px) {
+
+8.```@media (max-width: 799px) {
   section {
     display: block;
     margin: 0 auto;
     width: 97.5%;
   }```
+  
   9. CSS media queries are useful when you want to modify your site or app depending on a device's general media type and specific characteristics and parameters.
-  10. The CSS code considered mobile design when you use the min-width CSS property in our media query and the specified width is that of larger screens. 
-  11. The CSS code considered desktop first design when we use the max-width CSS property in our media query and the specified width is that of smaller screens.
-  12. mobile first design ```figure { border: 1px solid; display: block; margin: 4rem auto; max-width: 800px; width: 90%; }```
-  13. desktop first design ```@media (max-width: 899px) { header { background: rgba(104, 151, 187, 1); margin-top: 0; position: sticky; top: 0;}```
-  14. media query consists of an optional media type and any number of media feature expressions and a media feature expression is the part of a media query where the media feature and its value also each media feature expression around surround by parentheses.
+ 
+ 10. The CSS code considered mobile design when you use the min-width CSS property in our media query and the specified width is that of larger screens. 
+ 
+ 11. The CSS code considered desktop first design when we use the max-width CSS property in our media query and the specified width is that of smaller screens.
+ 
+ 12. mobile first design ```figure { border: 1px solid; display: block; margin: 4rem auto; max-width: 800px; width: 90%; }```
+ 
+ 13. desktop first design ```@media (max-width: 899px) { header { background: rgba(104, 151, 187, 1); margin-top: 0; position: sticky; top: 0;}```
+
+14. media query consists of an optional media type and any number of media feature expressions and a media feature expression is the part of a media query where the media feature and its value also each media feature expression around surround by parentheses.
+  
   15. A media query condition is when a media type is true if it matches the device on which the document is being displayed and all media feature expressions compute to true.
+  
   16. unknown media types always evaluate to false.
-  17. Media types describe the general category of a device.
-  18. we do for smaller screen devices to stack images on top of each other.
-  19. all: suitable for all devices, print: Intended for paged material and documents viewed on a screen in print preview mode, speech: Intended for speech synthesizers
-  20. A media feature is a specific characteristics of the user agent, output device, or environment. Media feature expressions test for their presence or value, and are entirely optional. 
-  21.A media feature expression is the part of a media query where the media feature and its value and the media feature expression tests for the presence or value of a media feature, and it is entirely optional. Each media feature expression must be surrounded by parentheses () and yes we need both for small screens and bigger screens to render site navigation and CSS Grid columns differently on both. ```(max-width: 799px)```
-  22.any-hover: Does any available input mechanism allow the user to hover over elements? 
+ 
+ 17. Media types describe the general category of a device.
+ 
+ 18. we do for smaller screen devices to stack images on top of each other.
+ 
+ 19. all: suitable for all devices, print: Intended for paged material and documents viewed on a screen in print preview mode, speech: Intended for speech synthesizers
+ 
+ 20. A media feature is a specific characteristics of the user agent, output device, or environment. Media feature expressions test for their presence or value, and are entirely optional. 
+ 
+ 21.A media feature expression is the part of a media query where the media feature and its value and the media feature expression tests for the presence or value of a media feature, and it is entirely optional. Each media feature expression must be surrounded by parentheses () and yes we need both for small screens and bigger screens to render site navigation and CSS Grid columns differently on both. ```(max-width: 799px)```
+
+22.any-hover: Does any available input mechanism allow the user to hover over elements? 
 
 any-pointer: Is any available input mechanism a pointing device, and if so, how accurate is it?
 
